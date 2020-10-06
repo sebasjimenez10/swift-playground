@@ -13,6 +13,8 @@
 		9EF663B2252BDA9E004E63EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF663B1252BDA9E004E63EF /* Preview Assets.xcassets */; };
 		9EF663BD252BDA9E004E63EF /* emojisappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF663BC252BDA9E004E63EF /* emojisappTests.swift */; };
 		9EF663C8252BDA9E004E63EF /* emojisappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF663C7252BDA9E004E63EF /* emojisappUITests.swift */; };
+		9EF663D9252CB384004E63EF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF663D8252CB384004E63EF /* CircleImage.swift */; };
+		9EF663DE252CB605004E63EF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF663DD252CB605004E63EF /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		9EF663C3252BDA9E004E63EF /* emojisappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emojisappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF663C7252BDA9E004E63EF /* emojisappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojisappUITests.swift; sourceTree = "<group>"; };
 		9EF663C9252BDA9E004E63EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF663D8252CB384004E63EF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9EF663DD252CB605004E63EF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				9EF663AA252BDA9B004E63EF /* emojisappApp.swift */,
 				9EF663AC252BDA9B004E63EF /* ContentView.swift */,
 				9EF663AE252BDA9E004E63EF /* Assets.xcassets */,
+				9EF663D8252CB384004E63EF /* CircleImage.swift */,
+				9EF663DD252CB605004E63EF /* MapView.swift */,
 				9EF663B3252BDA9E004E63EF /* Info.plist */,
 				9EF663B0252BDA9E004E63EF /* Preview Content */,
 			);
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF663AD252BDA9B004E63EF /* ContentView.swift in Sources */,
+				9EF663DE252CB605004E63EF /* MapView.swift in Sources */,
 				9EF663AB252BDA9B004E63EF /* emojisappApp.swift in Sources */,
+				9EF663D9252CB384004E63EF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
