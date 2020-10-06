@@ -11,13 +11,13 @@ import SwiftUI
 struct emojisappApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandmarkList()
         }
     }
 }
 
 struct EmojisApp_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkList()
     }
 }
